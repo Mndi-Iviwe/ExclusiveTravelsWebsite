@@ -4,40 +4,59 @@ function Packages(){
         <>
             <div className="packages-1">
             <img src="images/node-5.png" className="node-5" alt="pexels-photo-414612-1" />
-            <div className="rectangle-6"></div>
-            <p className="text-7"><span className="text-rgb-55-65-81">Region</span></p>
-            <div className="rectangle-8"></div>
-            <p className="text-9"><span className="text-rgb-55-65-81">Price Range</span></p>
-            <div className="rectangle-10"></div>
-            <p className="text-11"><span className="text-rgb-55-65-81">Duration</span></p>
-            <div className="rectangle-12"></div>
-            <p className="text-13"><span className="text-rgb-55-65-81">Sort By</span></p>
-            <div className="rectangle-14"></div>
-            <div className="rectangle-15"></div>
-            <p className="text-16"><span className="text-rgb-75-85-99">10</span></p>
-            <div className="rectangle-17"></div>
-            <img src="images/atlantis-the-palm-1-18.png" className="atlantis-the-palm-1-18" alt="atlantis-the-palm-1" />
-            <div className="rectangle-19"></div>
-            <div className="rectangle-20"></div>
-            <p className="text-21"><span className="text-white">7 Days / 6 Nights</span></p>
-            <div className="frame-22">
-            <img src="images/vector-23.svg" className="vector-23" alt="vector" />
-            <img src="images/vector-24.svg" className="vector-24" alt="vector" />
-            <img src="images/vector-25.svg" className="vector-25" alt="vector" />
+            <div className="rectangle-6">
+                <p className="text-7"><span className="text-rgb-55-65-81">Region</span></p>
             </div>
-            <p className="text-26"><span className="text-rgb-15-52-96">Dubai Luxury Getaway</span></p>
-            <div className="frame-27">
-            <img src="images/vector-28.svg" className="vector-28" alt="vector" />
-            <img src="images/vector-29.svg" className="vector-29" alt="vector" />
-            <img src="images/vector-30.svg" className="vector-30" alt="vector" />
+            
+            <div className="rectangle-8">
+                <p className="text-9"><span className="text-rgb-55-65-81">Price Range</span></p>
             </div>
-            <p className="text-31"><span className="text-rgb-75-85-99">Experience the height of luxury in Dubai with this exclusive 7-day package. Enjoy 5-star accommodation, desert safaris, and tours of Dubai's most iconic landmarks.</span></p>
-            <p className="text-32"><span className="text-rgb-15-52-96">R</span></p>
-            <p className="text-33"><span className="text-rgb-107-114-128">per person</span></p>
-            <div className="rectangle-34"></div>
-            <p className="text-35"><span className="text-rgb-15-52-96">View Details</span></p>
-            <div className="rectangle-36"></div>
-            <img src="images/node-37.png" className="node-37" alt="lif-1900845-jwmarriottmauritiusresort-3-jwmarriottmauritiusresort-1" />
+            
+
+            <div className="rectangle-10">
+                <p className="text-11"><span className="text-rgb-55-65-81">Duration</span></p>
+            </div>
+            
+
+            <div className="rectangle-12">
+                <p className="text-13"><span className="text-rgb-55-65-81">Sort By</span></p>
+            </div>
+            
+
+
+            <div className="rectangle-14">
+                <div className="rectangle-15"></div>
+                <p className="text-16"><span className="text-rgb-75-85-99">10</span></p>
+                <div className="rectangle-17"></div>
+                <img src="images/atlantis-the-palm-1-18.png" className="atlantis-the-palm-1-18" alt="atlantis-the-palm-1" />
+            </div>
+            
+
+            <div className="rectangle-19">
+                <div className="rectangle-20">
+                    <p className="text-21"><span className="text-white">7 Days / 6 Nights</span></p>
+                    <div className="frame-22">
+                    <img src="images/vector-23.svg" className="vector-23" alt="vector" />
+                    <img src="images/vector-24.svg" className="vector-24" alt="vector" />
+                    <img src="images/vector-25.svg" className="vector-25" alt="vector" />
+                    </div>
+                    <p className="text-26"><span className="text-rgb-15-52-96">Dubai Luxury Getaway</span></p>
+                    <div className="frame-27">
+                    <img src="images/vector-28.svg" className="vector-28" alt="vector" />
+                    <img src="images/vector-29.svg" className="vector-29" alt="vector" />
+                    <img src="images/vector-30.svg" className="vector-30" alt="vector" />
+                    </div>
+                    <p className="text-31"><span className="text-rgb-75-85-99">Experience the height of luxury in Dubai with this exclusive 7-day package. Enjoy 5-star accommodation, desert safaris, and tours of Dubai's most iconic landmarks.</span></p>
+                    <p className="text-32"><span className="text-rgb-15-52-96">R</span></p>
+                    <p className="text-33"><span className="text-rgb-107-114-128">per person</span></p>
+                    <div className="rectangle-34"></div>
+                    <p className="text-35"><span className="text-rgb-15-52-96">View Details</span></p>
+                    <div className="rectangle-36"></div>
+                    <img src="images/node-37.png" className="node-37" alt="lif-1900845-jwmarriottmauritiusresort-3-jwmarriottmauritiusresort-1" />
+                </div>
+            </div>
+            
+
             <div className="rectangle-38"></div>
             <div className="rectangle-39"></div>
             <p className="text-40"><span className="text-white">8 Days / 7 Nights</span></p>
@@ -59,6 +78,8 @@ function Packages(){
             <p className="text-54"><span className="text-rgb-15-52-96">View Details</span></p>
             <div className="rectangle-55"></div>
             <img src="images/node-56.png" className="node-56" alt="20191109184211_img_3336-1" />
+
+
             <div className="rectangle-57"></div>
             <div className="rectangle-58"></div>
             <p className="text-59"><span className="text-white">6 Days / 5 Nights</span></p>

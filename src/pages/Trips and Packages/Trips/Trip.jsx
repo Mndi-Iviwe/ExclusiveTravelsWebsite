@@ -4,8 +4,10 @@ function Trip() {
     return(
         <>
             <img src="images/node-5.png" class="node-5" alt="pexels-photo-414612-1" />
-            <div class="rectangle-6"></div>
-            <p class="text-7"><span class="text-rgb-55-65-81">Region</span></p>
+            <div class="rectangle-6">
+                <p class="text-7"><span class="text-rgb-55-65-81">Region</span></p>
+            </div>
+            
             <div class="rectangle-8"></div>
             <p class="text-9"><span class="text-rgb-55-65-81">Price Range</span></p>
             <div class="rectangle-10"></div>
