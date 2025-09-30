@@ -1,0 +1,15 @@
+#root {
+  margin: 0;
+  padding:0;
+  --font-family-inter: 'Inter', sans-serif;
+  --text-white: rgba(255, 255, 255, 1);
+  --text-rgb-100-116-139: rgba(100, 116, 139, 1);
+  --text-rgb-15-52-96: rgba(15, 52, 96, 1);
+  --text-rgb-55-65-81: rgba(55, 65, 81, 1);
+  --text-rgb-75-85-99: rgba(75, 85, 99, 1);
+  --text-rgb-248-250-252: rgba(248, 250, 252, 1);
+  --text-rgb-209-213-219: rgba(209, 213, 219, 1);
+  --text-rgb-156-163-175: rgba(156, 163, 175, 1);  
+}
+
+
