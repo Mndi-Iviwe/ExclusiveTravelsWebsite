@@ -57,27 +57,35 @@ function Packages(){
             </div>
             
 
-            <div className="rectangle-38"></div>
-            <div className="rectangle-39"></div>
-            <p className="text-40"><span className="text-white">8 Days / 7 Nights</span></p>
-            <div className="frame-41">
-            <img src="images/vector-42.svg" className="vector-42" alt="vector" />
-            <img src="images/vector-43.svg" className="vector-43" alt="vector" />
-            <img src="images/vector-44.svg" className="vector-44" alt="vector" />
+            <div className="rectangle-38">
+                <div className="rectangle-39">
+                    <p className="text-40"><span className="text-white">8 Days / 7 Nights</span></p>
+                    <div className="frame-41">
+                    <img src="images/vector-42.svg" className="vector-42" alt="vector" />
+                    <img src="images/vector-43.svg" className="vector-43" alt="vector" />
+                    <img src="images/vector-44.svg" className="vector-44" alt="vector" />
+                    </div>
+                    <p className="text-45"><span className="text-rgb-15-52-96">Mauritius Beach Escape</span></p>
+                    <div className="frame-46">
+                    <img src="images/vector-47.svg" className="vector-47" alt="vector" />
+                    <img src="images/vector-48.svg" className="vector-48" alt="vector" />
+                    <img src="images/vector-49.svg" className="vector-49" alt="vector" />
+                    </div>
+                    <p className="text-50"><span className="text-rgb-75-85-99">Relax on the pristine beaches of Mauritius with this all-inclusive luxury package. Enjoy water sports, spa treatments, and the beautiful lagoons of this island paradise.</span></p>
+                    <p className="text-51"><span className="text-rgb-15-52-96">R</span></p>
+                    <p className="text-52"><span className="text-rgb-107-114-128">per person</span></p>
+                    
+                    <div className="rectangle-53">
+                        <p className="text-54"><span className="text-rgb-15-52-96">View Details</span></p>
+                    </div>
+                    
+                    <div className="rectangle-55">
+                        <img src="images/node-56.png" className="node-56" alt="20191109184211_img_3336-1" />
+                    </div>
+                    
+                </div>
             </div>
-            <p className="text-45"><span className="text-rgb-15-52-96">Mauritius Beach Escape</span></p>
-            <div className="frame-46">
-            <img src="images/vector-47.svg" className="vector-47" alt="vector" />
-            <img src="images/vector-48.svg" className="vector-48" alt="vector" />
-            <img src="images/vector-49.svg" className="vector-49" alt="vector" />
-            </div>
-            <p className="text-50"><span className="text-rgb-75-85-99">Relax on the pristine beaches of Mauritius with this all-inclusive luxury package. Enjoy water sports, spa treatments, and the beautiful lagoons of this island paradise.</span></p>
-            <p className="text-51"><span className="text-rgb-15-52-96">R</span></p>
-            <p className="text-52"><span className="text-rgb-107-114-128">per person</span></p>
-            <div className="rectangle-53"></div>
-            <p className="text-54"><span className="text-rgb-15-52-96">View Details</span></p>
-            <div className="rectangle-55"></div>
-            <img src="images/node-56.png" className="node-56" alt="20191109184211_img_3336-1" />
+            
 
 
             <div className="rectangle-57"></div>
