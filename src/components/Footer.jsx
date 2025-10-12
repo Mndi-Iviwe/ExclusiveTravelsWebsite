@@ -13,8 +13,7 @@ export default function Footer() {
                         
                         <div className="col d-flex gap-3">
                             <img src="images/vector-173.svg" className="vector-173" alt="vector" />
-                            <img src="images/vector-175.svg" className="vector-175" alt="vector" />
-                            <img src="images/vector-176.svg" className="vector-176" alt="vector" />
+                            <img src="images/insta-log1.png" className="w-1" alt="vector" />
                             <img src="images/vector-178.svg" className="vector-178" alt="vector" />
                         </div>
             
@@ -40,14 +39,19 @@ export default function Footer() {
 
                     </div>
                     <div className="col">
-                        <img src="images/vector-192.svg" className="vector-192" alt="vector" />
-                        <img src="images/vector-193.svg" className="vector-193" alt="vector" />
-                        <p className="text-194"><span className="text-rgb-209-213-219">123 Travel Street, Cape Town, South Africa</span></p>
+
+                    
+                            <img src="images/vector-192.svg" className="vector-192" alt="vector" />
                         
-                        <img src="images/vector-196.svg" className="vector-196" alt="vector" />
+                            <p className="text-194"><span className="text-rgb-209-213-219">123 Travel Street, Cape Town, South Africa</span></p>
+                        
+                        
+                        
+                        <img src="images/phone-icon.png" className="vector-196" alt="vector" />
                         
                         <p className="text-197"><span className="text-rgb-209-213-219">+27 12 345 6789</span></p>
                         
+
                         <img src="images/vector-199.svg" className="vector-199" alt="vector" />
                         <img src="images/vector-200.svg" className="vector-200" alt="vector" />
                         

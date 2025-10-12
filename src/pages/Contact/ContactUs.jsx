@@ -28,6 +28,7 @@ export default function ContactUs() {
     <h1 className="fw-bold mb-2 text-brand">Contact Us</h1>
     <p className="text-muted mb-4">
       We'd love to hear from you! Fill in your details below and we’ll get back to you soon.
+      We work from Monday till Friday from 8:00 a.m. to 5:30 p.m.
     </p>
 
     <form onSubmit={handleSubmit}>
