@@ -8,6 +8,8 @@ import Visa from './pages/VisaApplication/VisaApplication'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import About from './pages/AboutUs/About'
+import Login from './pages/Auth/Login/Login'
+import Register from './pages/Auth/Register/Register'
 import { Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -28,6 +30,8 @@ function App() {
               <Route path = "/About" element = {<About/>} />
               <Route path = "/ContactUs" element = {<Contact/>} />
               <Route path = "/VisaApplication" element = {<Visa/>} />
+              <Route path = "/Login" element = {<Login/>} />
+              <Route path = "/Register" element = {<Register/>} />         
           </Routes>
         </div>
 

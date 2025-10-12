@@ -29,3 +29,19 @@ img {
 .custom-padding {
   padding: 6rem 0;
 }
+
+.squeeze-text {
+  max-width: 600px;        /* adjust to taste */
+  margin: 0 auto;           /* centers the block */
+  text-align: center;       /* optional, for centered layout */
+}
+
+.bg-special {
+  background-color: #F9F5EB !important;
+  color: #374151 !important;
+}
+
+.bg-grey {
+  background-color: #F9FAFB !important;
+  color: #374151 !important;
+}

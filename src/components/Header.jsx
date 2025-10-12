@@ -15,20 +15,25 @@ export default function Header() {
           <Nav className="ps-5 me-auto">
             <CustomLink to='/Home'>Home</CustomLink>
             <CustomLink to='/Packages'>Destinations</CustomLink>
-            <CustomLink to='VisaApplication'>Visa Applications</CustomLink>
+            <CustomLink to='/VisaApplication'>Visa Applications</CustomLink>
             <CustomLink to='/About'>About Us</CustomLink>
             <CustomLink to='/ContactUs'>Contact Us</CustomLink>
           </Nav>
+
           <Nav className='gap-2'>
-            <Nav.Link href="#deets" className="btn btn-primary btn-lg px-3 rounded-3 fw-bold"
-            style={{ backgroundColor: "#ffff", border: "2px solid #0F3460"}}
-            >
+            <CustomLink to='/Login'>
+            <button className="btn btn-primary btn-lg px-3 rounded-3 text-black"
+              style={{ backgroundColor: "#ffff", border: "2px solid #0F3460"}}>
               Login
-            </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes" className="btn btn-primary btn-lg px-3 rounded-3 fw-semibold text-white"
-            style={{ backgroundColor: "#0F3460" }}>
-              Register
-            </Nav.Link>
+            </button>
+              
+            </CustomLink>
+            <CustomLink to="/Register">
+              <button className="btn btn-primary btn-lg px-3 rounded-3"
+                  style={{ backgroundColor: "#0F3460" }}>
+                Register
+              </button>
+            </CustomLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

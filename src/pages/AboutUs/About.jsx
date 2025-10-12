@@ -11,9 +11,11 @@ function AboutUs() {
             >
             
 
-                <div className="bg-brand text-center custom-padding">
-                    <h1 className="text-4"><span className="text-white">About Exclusive Travels</span></h1>
-                    <p className="fs-5 m-0"><span className="text-white">Welcome to the home of Leisure and Travel. We are experts in Travel Management Services and Organized Tours.</span></p>
+                <div className="bg-brand text-center custom-padding ">
+                    <h1><span className="text-white">About Exclusive Travels</span></h1>
+                    <div className=''>
+                        <p class="fs-5 squeeze-text text-center py-2"><span className="text-white">Welcome to the home of Leisure and Travel. We are experts in Travel Management Services and Organized Tours.</span></p>
+                    </div>
                 </div>
             
 
@@ -41,35 +43,40 @@ function AboutUs() {
             
             
             
-            <div className="text-center">
+            <div className="text-center custom-padding bg-grey">
                 <h2 className="text-14"><span className="text-rgb-15-52-96">Our Values</span></h2>
             
-            
-                <div className="rectangle-15">
-                    <p className="text-16"><span className="text-rgb-15-52-96">Excellence</span></p>
-                    <p className="text-17"><span className="text-rgb-75-85-99">We strive for excellence in every aspect of our service, ensuring that our clients receive the best possible travel experiences.</span></p>
+                <div className="container">
+                        <div className="row gap-4">
+                            <div className="col card shadow-lg border-2 square-card px-0 pt-4 squeeze-text">
+                            <p className="text-16"><span className="text-rgb-15-52-96">Excellence</span></p>
+                            <p className="text-17"><span className="text-rgb-75-85-99">We strive for excellence in every aspect of our service, ensuring that our clients receive the best possible travel experiences.</span></p>
+                            </div>
+                    
+                        <div className="col card shadow-lg border-2 square-card px-0 pt-4 squeeze-text">
+                            <p className="text-19"><span className="text-rgb-15-52-96">Integrity</span></p>
+                            <p className="text-20"><span className="text-rgb-75-85-99">We conduct our business with the highest level of integrity and transparency, building trust with our clients and partners.</span></p>
+                        </div>
+
+                        <div className="col card shadow-lg border-2 square-card px-0 pt-4 squeeze-text">
+                            <p className="text-22"><span className="text-rgb-15-52-96">Customer Focus</span></p>
+                            <p className="text-23"><span className="text-rgb-75-85-99">Our clients are at the heart of everything we do. We tailor our services to meet their unique needs and expectations.</span></p>
+                        </div>
+
+                    </div>
                 </div>
                 
-                <div className="rectangle-18">
-                    <p className="text-19"><span className="text-rgb-15-52-96">Integrity</span></p>
-                    <p className="text-20"><span className="text-rgb-75-85-99">We conduct our business with the highest level of integrity and transparency, building trust with our clients and partners.</span></p>
-                </div>
-
-                <div className="rectangle-21">
-                    <p className="text-22"><span className="text-rgb-15-52-96">Customer Focus</span></p>
-                    <p className="text-23"><span className="text-rgb-75-85-99">Our clients are at the heart of everything we do. We tailor our services to meet their unique needs and expectations.</span></p>
-                </div>
             </div>
             
             
 
            
-            <div className="text-center justify-content-center custom-padding">
+            <div className="text-center justify-content-center custom-padding bg-special">
 
                 <h3 className="text-25"><span className="text-rgb-15-52-96">Ready to Experience Our Service?</span></h3>
             
             
-                <p className="fs-5"><span className="text-rgb-55-65-81">Let us help you plan your next adventure with our expert travel management services.</span></p>
+                <p className="fs-5 squeeze-text py-4"><span className="text-rgb-55-65-81">Let us help you plan your next adventure with our expert travel management services.</span></p>
             
             
                 <Nav className='gap-2 justify-content-center py-3'>
