@@ -4,7 +4,7 @@ function Login() {
         <div className="text-center vh-100 bg-light align-items-center">
 
             <div className="pt-5 pb-3">  
-                <p class="text-3"><span class="text-rgb-15-52-96">Welcome Back</span></p>
+                <h1 class="text-3"><span class="text-rgb-15-52-96">Welcome Back</span></h1>
                 <p class="text-4"><span class="text-rgb-75-85-99">Sign in to access your exclusive travel account</span></p>
             </div> 
 

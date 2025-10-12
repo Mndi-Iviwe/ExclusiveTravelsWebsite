@@ -2,10 +2,10 @@ function Register() {
     return (
         <>
 
-        <div className="text-center align-items-center vh-100 bg-light">
+        <div className="text-center align-items-center bg-light pt-1 pb-5">
 
-            <div className="pt-5 pb-3">
-                <p class="text-3"><span class="text-rgb-15-52-96">Create Your Account</span></p>
+            <div className="pt-5 pb-5">
+                <h1 class="text-3"><span class="text-rgb-15-52-96">Create Your Account</span></h1>
                 <p class="text-4"><span class="text-rgb-75-85-99">Join Exclusive Travels for personalized travel experiences</span></p>
             </div>
 
@@ -82,7 +82,7 @@ function Register() {
                     />
                   </div>
 
-                  <button type="submit" className="btn btn-primary w-100 fw-semibold">
+                  <button type="submit" className="btn bg-brand w-100 fw-semibold">
                     Register
                   </button>
 

@@ -30,6 +30,10 @@ img {
   padding: 6rem 0;
 }
 
+.custom-padding2 {
+  padding: 8rem 0;
+}
+
 .squeeze-text {
   max-width: 600px;        /* adjust to taste */
   margin: 0 auto;           /* centers the block */
@@ -42,6 +46,15 @@ img {
 }
 
 .bg-grey {
-  background-color: #F9FAFB !important;
+  background-color: #e0e4e8 !important;
   color: #374151 !important;
+}
+
+.bg-container2 {
+  background-image: url('/images/node-5.png');
+  background-size: cover;
+  background-position: cover;
+  height: 90vh;
+  font-size: 30px;
+  font-weight: bold;
 }

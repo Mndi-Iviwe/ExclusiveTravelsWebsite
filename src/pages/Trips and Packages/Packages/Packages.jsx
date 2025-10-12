@@ -3,40 +3,52 @@ function Packages(){
     return(
         <>
             <div className="packages-1">
-                <div class="rectangle-2"></div>
-                <div class="rectangle-3"></div>
-                <div class="rectangle-4"></div>
+                
+            <div className="text-center pb-3 ">
+                    
+                    <div className="bg-container2 align-items-center justify-content-center d-flex flex-column text-white">
+                    <h1 >Explore our Travel Packages</h1>
+                    <p>Discover our carefully curated selection of luxury travel experiences around the world.</p>
+                    <div className="rectangle-6">
+                        <p className="text-7"><span className="text-rgb-55-65-81">Region</span></p>
+                    </div>
+                    </div>
 
-            <img src="images/node-5.png" className="node-5" alt="pexels-photo-414612-1" />
-            <div className="rectangle-6">
-                <p className="text-7"><span className="text-rgb-55-65-81">Region</span></p>
-            </div>
+                    <div className="text-center d-flex justify-content-center space-between gap-5 pt-4 bg-grey">
+                        <div className="rectangle-8">
+                            <p className="text-9"><span className="text-rgb-55-65-81">Price Range</span></p>
+                        </div>
+                        
+
+                        <div className="rectangle-10">
+                            <p className="text-11"><span className="text-rgb-55-65-81">Duration</span></p>
+                        </div>
+                        
+
+                        <div className="rectangle-12">
+                            <p className="text-13"><span className="text-rgb-55-65-81">Sort By</span></p>
+                        </div>
+                    </div>
+
+
             
-            <div className="rectangle-8">
-                <p className="text-9"><span className="text-rgb-55-65-81">Price Range</span></p>
             </div>
-            
-
-            <div className="rectangle-10">
-                <p className="text-11"><span className="text-rgb-55-65-81">Duration</span></p>
-            </div>
-            
-
-            <div className="rectangle-12">
-                <p className="text-13"><span className="text-rgb-55-65-81">Sort By</span></p>
-            </div>
-            
 
 
-            <div className="rectangle-14">
+            <div className="container">
                 <div className="rectangle-15"></div>
                 <p className="text-16"><span className="text-rgb-75-85-99">10</span></p>
-                <div className="rectangle-17"></div>
-                <img src="images/atlantis-the-palm-1-18.png" className="atlantis-the-palm-1-18" alt="atlantis-the-palm-1" />
-            </div>
-            
+                </div>
 
+            <div className="row">
+
+
+
+
+            </div>
             <div className="rectangle-19">
+            
+                <img src="images/atlantis-the-palm-1-18.png" className="atlantis-the-palm-1-18" alt="atlantis-the-palm-1" />
                 <div className="rectangle-20">
                     <p className="text-21"><span className="text-white">7 Days / 6 Nights</span></p>
                     <div className="frame-22">
@@ -56,13 +68,16 @@ function Packages(){
                     <div className="rectangle-34">
                         <p className="text-35"><span className="text-rgb-15-52-96">View Details</span></p>
                     </div>
+
+            </div>
+
                     
                     <div className="rectangle-36">
                         <img src="images/node-37.png" className="node-37" alt="lif-1900845-jwmarriottmauritiusresort-3-jwmarriottmauritiusresort-1" />
                     </div>
                     
                 </div>
-            </div>
+            
             
 
             <div className="rectangle-38">
@@ -84,8 +99,15 @@ function Packages(){
                     <p className="text-52"><span className="text-rgb-107-114-128">per person</span></p>
                     
                     <div className="rectangle-53">
-                        <p className="text-54"><span className="text-rgb-15-52-96">View Details</span></p>
+                        <p className="text-54"><span className="text-rgb-15-52-96">View Details</span></p>    
                     </div>
+
+
+
+
+
+
+
                     
                     <div className="rectangle-55">
                         <img src="images/node-56.png" className="node-56" alt="20191109184211_img_3336-1" />
@@ -116,6 +138,13 @@ function Packages(){
             <div className="rectangle-72"></div>
             <p className="text-73"><span className="text-rgb-15-52-96">View Details</span></p>
             <div className="rectangle-74"></div>
+
+
+
+
+
+
+
             <img src="images/maxresdefault-1-1-75.png" className="maxresdefault-1-1-75" alt="maxresdefault-1-1" />
 
 
@@ -138,6 +167,12 @@ function Packages(){
             <p className="text-90"><span className="text-rgb-107-114-128">per person</span></p>
             <div className="rectangle-91"></div>
             <p className="text-92"><span className="text-rgb-15-52-96">View Details</span></p>
+
+
+
+
+
+
             <div className="rectangle-93"></div>
             <img src="images/maxresdefault-1-94.png" className="maxresdefault-1-94" alt="maxresdefault-1" />
 
@@ -161,6 +196,13 @@ function Packages(){
             <p className="text-109"><span className="text-rgb-107-114-128">per person</span></p>
             <div className="rectangle-110"></div>
             <p className="text-111"><span className="text-rgb-15-52-96">View Details</span></p>
+
+
+
+
+
+
+
             <div className="rectangle-112"></div>
             <img src="images/node-113.png" className="node-113" alt="plan-your-ultimate-serengeti-safari-adventure-1" />
 
@@ -252,16 +294,17 @@ function Packages(){
                     <p className="text-185"><span className="text-rgb-107-114-128">per person</span></p>
                     <div className="rectangle-186"></div>
                     <p className="text-187"><span className="text-rgb-15-52-96">View Details</span></p>
-                    <div className="rectangle-188"></div>
-                    <img src="images/node-189.png" className="node-189" alt="adobestock_240686117-scaled-1" />
+                    
                 </div>
             </div>
             
             
 
 
-            <div className="rectangle-190">
+            
                 <div className="rectangle-191">
+                    <div className="rectangle-188"></div>
+                    <img src="images/node-189.png" className="node-189" alt="adobestock_240686117-scaled-1" />
                     <p className="text-192"><span className="text-white">7 Days / 6 Nights</span></p>
                         <div className="frame-193">
                         <img src="images/vector-194.svg" className="vector-194" alt="vector" />
@@ -280,13 +323,14 @@ function Packages(){
                     <div className="rectangle-205">
                         <p className="text-206"><span className="text-rgb-15-52-96">View Details</span></p>
                     </div>
+                </div>
+
                     
                     <div className="rectangle-207">
                         <p className="text-208"><span className="text-rgb-15-52-96">Didn't Find What You're Looking For?</span></p>
                         <p className="text-209"><span className="text-rgb-75-85-99">Contact our travel specialists for a customized travel package tailored to your specific needs and preferences.</span></p>
                     </div>
-                </div>
-            </div>
+               
             
             
             </div>
