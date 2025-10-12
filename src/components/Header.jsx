@@ -19,7 +19,7 @@ export default function Header() {
             <CustomLink to='/About'>About Us</CustomLink>
             <CustomLink to='/ContactUs'>Contact Us</CustomLink>
           </Nav>
-          <Nav >
+          <Nav className='gap-2'>
             <Nav.Link href="#deets" className="btn btn-primary btn-lg px-3 rounded-3 fw-bold"
             style={{ backgroundColor: "#ffff", border: "2px solid #0F3460"}}
             >
