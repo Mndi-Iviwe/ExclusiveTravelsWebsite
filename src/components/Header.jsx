@@ -22,14 +22,14 @@ export default function Header() {
 
           <Nav className='gap-2'>
             <CustomLink to='/Login'>
-            <button className="btn btn-primary btn-lg px-3 rounded-3 text-black"
+            <button className="btn btn-primary btn-lg px-4 rounded-3 text-black fs-5"
               style={{ backgroundColor: "#ffff", border: "2px solid #0F3460"}}>
               Login
             </button>
               
             </CustomLink>
             <CustomLink to="/Register">
-              <button className="btn btn-primary btn-lg px-3 rounded-3"
+              <button className="btn btn-primary btn-lg px-4 rounded-3 fs-5"
                   style={{ backgroundColor: "#0F3460" }}>
                 Register
               </button>
