@@ -39,7 +39,7 @@ export default function ContactUs() {
           value={formData.name}
           onChange={handleChange}
           required
-          className="form-control form-control-lg rounded-3 shadow-sm"
+          className="form-control form-control-lg rounded-3"
           placeholder="Your name"
         />
       </div>
@@ -52,7 +52,7 @@ export default function ContactUs() {
           value={formData.email}
           onChange={handleChange}
           required
-          className="form-control form-control-lg rounded-3 shadow-sm"
+          className="form-control form-control-lg rounded-3 "
           placeholder="you@example.com"
         />
       </div>

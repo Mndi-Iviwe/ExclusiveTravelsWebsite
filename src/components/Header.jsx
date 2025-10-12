@@ -19,9 +19,14 @@ export default function Header() {
             <CustomLink to='/About'>About Us</CustomLink>
             <CustomLink to='/ContactUs'>Contact Us</CustomLink>
           </Nav>
-          <Nav>
-            <Nav.Link href="#deets">Login</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+          <Nav >
+            <Nav.Link href="#deets" className="btn btn-primary btn-lg px-3 rounded-3 fw-bold"
+            style={{ backgroundColor: "#ffff", border: "2px solid #0F3460"}}
+            >
+              Login
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="#memes" className="btn btn-primary btn-lg px-3 rounded-3 fw-semibold text-white"
+            style={{ backgroundColor: "#0F3460" }}>
               Register
             </Nav.Link>
           </Nav>
