@@ -12,4 +12,7 @@
   --text-rgb-156-163-175: rgba(156, 163, 175, 1);  
 }
 
-
+.bg-brand {
+  background-color: #0f3460 !important;
+  color: #fff !important;
+}

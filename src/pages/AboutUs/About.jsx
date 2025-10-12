@@ -3,6 +3,10 @@ function AboutUs() {
 
     return(
         <>
+            <div style={{
+            background: "linear-gradient(135deg, #f8f9fa 60%, #e9ecef 40%)",
+            minHeight: "100vh",}}
+            >
             <p className="text-4"><span className="text-white">About Exclusive Travels</span></p>
             <p className="text-5"><span className="text-white">Welcome to the home of Leisure and Travel. We are experts in Travel Management Services and Organized Tours.</span></p>
             <p className="text-6"><span className="text-rgb-15-52-96">Our Story</span></p>
@@ -49,7 +53,7 @@ function AboutUs() {
                 <p className="text-30"><span className="text-rgb-15-52-96">Get in Touch</span></p>
             </div>
             
-
+            </div>
         </>
     )
 }

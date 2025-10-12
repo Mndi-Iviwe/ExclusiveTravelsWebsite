@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function Header() {
 
     return(
-                <Navbar collapseOnSelect expand="lg" className="p-4 bg-body-tertiary">
+      <Navbar collapseOnSelect expand="lg" className="p-4 bg-white shadow-sm">
       <Container>
         <Navbar.Brand className='ms-1'><img src="images/rettina-1-210.png" class="rettina-1-210" alt="rettina-1" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='text-center'/>
@@ -18,7 +18,6 @@ export default function Header() {
             <CustomLink to='VisaApplication'>Visa Applications</CustomLink>
             <CustomLink to='/About'>About Us</CustomLink>
             <CustomLink to='/ContactUs'>Contact Us</CustomLink>
-            <CustomLink to='/Trip'>Trip</CustomLink>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">Login</Nav.Link>

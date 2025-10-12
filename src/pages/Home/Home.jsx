@@ -2,6 +2,7 @@
 function Home(){
     return(
         <>
+            <div class="launch-page-1">
             <div className="rectangle-2">
                 <img src="images/node-3.png" className="node-3" alt="pexels-pixabay-206359-1" />
                 <p className="text-4"><span className="text-white">Discover the World with</span></p>
@@ -85,10 +86,14 @@ function Home(){
                     <p className="text-57"><span className="text-rgb-75-85-99">Relax on the pristine beaches of Mauritius with this all-inclusive luxury package. Enjoy water sports, spa treatments, and the beautiful lagoons of this island paradise.</span></p>
                     <p className="text-58"><span className="text-rgb-15-52-96">R</span></p>
                     <p className="text-59"><span className="text-rgb-107-114-128">per person</span></p>
-                    <div className="rectangle-60"></div>
-                    <p className="text-61"><span className="text-rgb-15-52-96">View Details</span></p>
-                    <div className="rectangle-62"></div>
-                    <img src="images/node-63.png" className="node-63" alt="20191109184211_img_3336-1" />
+                    <div className="rectangle-60">
+                        <p className="text-61"><span className="text-rgb-15-52-96">View Details</span></p>
+                    </div>
+                    
+                    <div className="rectangle-62">
+                        <img src="images/node-63.png" className="node-63" alt="20191109184211_img_3336-1" />
+                    </div>
+                    
                 </div>
             </div>
             
@@ -105,10 +110,15 @@ function Home(){
                     <p className="text-72"><span className="text-rgb-75-85-99">Discover the spice island of Zanzibar with this exotic package. Explore historic Stone Town, relax on white sand beaches, and experience the unique culture and cuisine.</span></p>
                     <p className="text-73"><span className="text-rgb-15-52-96">R</span></p>
                     <p className="text-74"><span className="text-rgb-107-114-128">per person</span></p>
-                    <div className="rectangle-75"></div>
-                    <p className="text-76"><span className="text-rgb-15-52-96">View Details</span></p>
-                    <div className="rectangle-77"></div>
-                    <img src="images/maxresdefault-1-78.png" className="maxresdefault-1-78" alt="maxresdefault-1" />
+                    
+                    <div className="rectangle-75">
+                        <p className="text-76"><span className="text-rgb-15-52-96">View Details</span></p>
+                    </div>
+                    
+                    <div className="rectangle-77">
+                        <img src="images/maxresdefault-1-78.png" className="maxresdefault-1-78" alt="maxresdefault-1" />
+                    </div>
+                    
                 </div>
             </div>
 
@@ -125,10 +135,15 @@ function Home(){
                     <p className="text-87"><span className="text-rgb-75-85-99">Indulge in the ultimate luxury with an overwater villa stay in the Maldives. Experience crystal-clear waters, world-className snorkeling, and unparalleled service.</span></p>
                     <p className="text-88"><span className="text-rgb-15-52-96">R</span></p>
                     <p className="text-89"><span className="text-rgb-107-114-128">per person</span></p>
-                    <div className="rectangle-90"></div>
-                    <p className="text-91"><span className="text-rgb-15-52-96">View Details</span></p>
-                    <div className="rectangle-92"></div>
-                    <img src="images/node-93.png" className="node-93" alt="plan-your-ultimate-serengeti-safari-adventure-1" />
+
+                    <div className="rectangle-90">
+                        <p className="text-91"><span className="text-rgb-15-52-96">View Details</span></p>
+                    </div>
+                    
+                    <div className="rectangle-92">
+                        <img src="images/node-93.png" className="node-93" alt="plan-your-ultimate-serengeti-safari-adventure-1" />
+                    </div>
+                    
                 </div>
             </div>
 
@@ -145,10 +160,15 @@ function Home(){
                         <p className="text-102"><span className="text-rgb-75-85-99">Experience the breathtaking wildlife of Tanzania with this exclusive safari package. Witness the Great Migration, explore the vast plains of Serengeti, and discover the natural wonders of the Ngorongoro Crater.</span></p>
                         <p className="text-103"><span className="text-rgb-15-52-96">R</span></p>
                         <p className="text-104"><span className="text-rgb-107-114-128">per person</span></p>
-                        <div className="rectangle-105"></div>
-                        <p className="text-106"><span className="text-rgb-15-52-96">View Details</span></p>
-                        <div className="rectangle-107"></div>
-                        <img src="images/hoi-an-1-108.png" className="hoi-an-1-108" alt="hoi-an-1" />
+
+                        <div className="rectangle-105">
+                            <p className="text-106"><span className="text-rgb-15-52-96">View Details</span></p>
+                        </div>
+                        
+                        <div className="rectangle-107">
+                            <img src="images/hoi-an-1-108.png" className="hoi-an-1-108" alt="hoi-an-1" />
+                        </div>
+                        
                 </div>
             </div>
 
@@ -246,7 +266,7 @@ function Home(){
                 <p className="text-164"><span className="text-white">Let us help you plan your perfect getaway with exclusive packages and personalized service.</span></p>
             </div>
             
-            
+            </div>
 
         </>
     )
