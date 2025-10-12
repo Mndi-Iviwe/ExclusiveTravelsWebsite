@@ -14,7 +14,7 @@ function AboutUs() {
             <p className="text-8"><span className="text-rgb-55-65-81">The core strength of this company comes from the Manager's vast knowledge of the Travel and Tourism Industry. After working for a period of 05 years for a Travel Agency in Cape town, Miss Mpho Mphadzha took a brave decision to move back to Gauteng and apply the skills and knowledge she had gathered from working as a Manager for all those years. In 2021 Exclusive Travels was born. The company holds a strong client base and 03 permanent staff members.</span></p>
             
             <div className="rectangle-9">
-                 <p className="text-10"><span className="text-white">Contact Us</span></p>
+                 <p className="text-10"><span className="text-white">Contact Us!</span></p>
             </div>
 
             <div className="rectangle-11">

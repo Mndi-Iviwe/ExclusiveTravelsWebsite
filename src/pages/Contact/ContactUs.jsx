@@ -25,14 +25,14 @@ export default function ContactUs() {
   }}
 >
   <div style={{ maxWidth: "600px" }}>
-    <h1 className="fw-bold mb-3">Contact Us</h1>
+    <h1 className="fw-bold mb-2 text-brand">Contact Us</h1>
     <p className="text-muted mb-4">
       We'd love to hear from you! Fill in your details below and we’ll get back to you soon.
     </p>
 
     <form onSubmit={handleSubmit}>
       <div className="mb-4">
-        <label className="form-label fw-semibold">Name</label>
+        <label className="form-label fw-semibold">Name:</label>
         <input
           type="text"
           name="name"
@@ -40,12 +40,12 @@ export default function ContactUs() {
           onChange={handleChange}
           required
           className="form-control form-control-lg rounded-3"
-          placeholder="Your name"
+          placeholder="Your name (or Organization)"
         />
       </div>
 
       <div className="mb-4">
-        <label className="form-label fw-semibold">Email</label>
+        <label className="form-label fw-semibold">Email:</label>
         <input
           type="email"
           name="email"
@@ -60,7 +60,7 @@ export default function ContactUs() {
       <button
         type="submit"
         className="btn btn-primary btn-lg px-3 rounded-3 fw-semibold"
-        style={{ backgroundColor: "#0d6efd", border: "none" }}
+        style={{ backgroundColor: "#0F3460", border: "none" }}
       >
         Submit
       </button>
