@@ -28,6 +28,7 @@
 
 .text-brand2 {
   color: #0f3460 !important;
+  text-decoration: none;
 }
 
 img {
@@ -59,6 +60,15 @@ img {
   color: #374151 !important;
 }
 
+.bg-container {
+  background-image: url('/images/node-3.png');
+  background-size: cover;
+  background-position: cover;
+  height: 90vh;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .bg-container2 {
   background-image: url('/images/node-5.png');
   background-size: cover;
@@ -72,4 +82,9 @@ img {
   width: 510px;
   height: auto;
   margin-right: 40%;
+}
+
+.custom-font {
+  font-size: 18px;
+  color: #4b5563;
 }

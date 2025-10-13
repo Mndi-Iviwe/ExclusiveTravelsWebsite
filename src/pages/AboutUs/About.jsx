@@ -48,17 +48,17 @@ function AboutUs() {
             
                 <div className="container">
                         <div className="row gap-4">
-                            <div className="col card shadow-lg border-2 square-card px-0 pt-4 squeeze-text">
+                            <div className="col card border-2 square-card px-0 pt-4 squeeze-text">
                             <p className="text-16"><span className="text-rgb-15-52-96">Excellence</span></p>
                             <p className="text-17"><span className="text-rgb-75-85-99">We strive for excellence in every aspect of our service, ensuring that our clients receive the best possible travel experiences.</span></p>
                             </div>
                     
-                        <div className="col card shadow-lg border-2 square-card px-0 pt-4 squeeze-text">
+                        <div className="col card border-2 square-card px-0 pt-4 squeeze-text">
                             <p className="text-19"><span className="text-rgb-15-52-96">Integrity</span></p>
                             <p className="text-20"><span className="text-rgb-75-85-99">We conduct our business with the highest level of integrity and transparency, building trust with our clients and partners.</span></p>
                         </div>
 
-                        <div className="col card shadow-lg border-2 square-card px-0 pt-4 squeeze-text">
+                        <div className="col card border-2 square-card px-0 pt-4 squeeze-text">
                             <p className="text-22"><span className="text-rgb-15-52-96">Customer Focus</span></p>
                             <p className="text-23"><span className="text-rgb-75-85-99">Our clients are at the heart of everything we do. We tailor our services to meet their unique needs and expectations.</span></p>
                         </div>
@@ -80,12 +80,12 @@ function AboutUs() {
             
             
                 <Nav className='gap-2 justify-content-center py-3'>
-                    <Nav.Link href="#deets" className="btn btn-primary btn-lg px-3 rounded-3 fw-bold text-black"
+                    <Nav.Link href="/Packages" className="btn btn-primary btn-lg px-3 rounded-3 fw-bold text-black"
                     style={{ backgroundColor: "#ffff", border: "2px solid #0F3460"}}
                     >
                     Explore Our Packages
                     </Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes" className="btn btn-primary btn-lg px-3 rounded-3 fw-semibold text-white"
+                    <Nav.Link eventKey={2} href="/ContactUs" className="btn btn-primary btn-lg px-3 rounded-3 fw-semibold text-white"
                     style={{ backgroundColor: "#0F3460" }}>
                     Get in Touch
                     </Nav.Link>

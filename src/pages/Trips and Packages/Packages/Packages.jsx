@@ -140,10 +140,10 @@ function Packages(){
 
 
 
-
-
-
             </div>
+
+
+
             <div className="row text-center">
                 <div className="col card shadow-lg rounded-4 p-3 m-4 custom-card" >
                 <div>
@@ -295,6 +295,10 @@ function Packages(){
             </div>
 
             </div>
+
+
+
+            
             <div className="row custom-card text-center">
             <div className="col card shadow-lg rounded-4 p-3 m-4 " >
 
