@@ -12,6 +12,11 @@
   --text-rgb-156-163-175: rgba(156, 163, 175, 1);  
 }
 
+* {
+  font-family: var(--font-family-inter);
+  overflow-x: hidden;
+}
+
 .bg-brand {
   background-color: #0f3460 !important;
   color: #fff !important;
@@ -21,13 +26,17 @@
   color: rgb(199, 172, 19) !important;
 }
 
+.text-brand2 {
+  color: #0f3460 !important;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
 
 .custom-padding {
-  padding: 6rem 0;
+  padding: 7rem 0;
 }
 
 .custom-padding2 {
@@ -57,4 +66,10 @@ img {
   height: 90vh;
   font-size: 30px;
   font-weight: bold;
+}
+
+.custom-card {
+  width: 510px;
+  height: auto;
+  margin-right: 40%;
 }
