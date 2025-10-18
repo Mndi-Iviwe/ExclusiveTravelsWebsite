@@ -36,13 +36,14 @@ img {
   height: auto;
 }
 
-.custom-padding {
-  padding: 7rem 0;
+.custom-padding1 {
+  padding: 4rem 0;
 }
 
-.custom-padding2 {
-  padding: 8rem 0;
+.custom-padding {
+  padding: 6rem 0;
 }
+
 
 .squeeze-text {
   max-width: 600px;        /* adjust to taste */
