@@ -17,6 +17,9 @@
   overflow-x: hidden;
 }
 
+
+/*Body Styling*/
+
 .bg-brand {
   background-color: #0f3460 !important;
   color: #fff !important;
@@ -37,18 +40,18 @@ img {
 }
 
 .custom-padding1 {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .custom-padding {
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 
 
 .squeeze-text {
-  max-width: 600px;        /* adjust to taste */
-  margin: 0 auto;           /* centers the block */
-  text-align: center;       /* optional, for centered layout */
+  max-width: 600px;        
+  margin: 0 auto;          
+  text-align: center;       
 }
 
 .bg-special {
@@ -89,3 +92,71 @@ img {
   font-size: 18px;
   color: #4b5563;
 }
+
+.box-simple {
+  background: #f8f9fa;          /* light grey background */
+  border: 1px solid #ddd;       /* subtle border */
+  border-radius: 8px;           /* slightly curved corners */
+  padding: 20px;                /* comfortable spacing */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* gentle depth */
+}
+
+.btn-plain1 {
+  background: #0f3460;
+  color: white;
+  border: 2px solid #0f3460;   /* blue border */
+  border-radius: 6px;           /* subtle curve */
+  padding: 8px 16px;            /* nice amount of padding */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-plain2 {
+  background: lightgray;
+  color: #333;
+  border: 2px solid #0f3460;   /* blue border */
+  border-radius: 6px;           /* subtle curve */
+  padding: 8px 16px;            /* nice amount of padding */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+
+.btn-plain1:hover {
+  background: lightgray;
+  color: #333;
+}
+
+.btn-plain2:hover {
+  background: #0f3460;
+  color: white;
+}
+
+.web-icon {
+  width: 20px;
+  height:  auto;
+}
+
+
+.notice-rec{
+  font-size: 12px;
+  background: lightcyan;
+  color: lightskyblue;
+  padding: 5px;
+}
+
+/* Scroll Bar Styling*/
+::-webkit-scrollbar {
+  width: 10px;              /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;      /* track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0f3460; /* scrollbar handle color */
+  border-radius: 0px;       /* round edges */
+  border: 3px solid #f1f1f1; /* padding inside track */
+}
+
