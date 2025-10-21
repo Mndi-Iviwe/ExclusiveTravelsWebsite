@@ -16,15 +16,15 @@ function VisaApplication() {
         <Tabs
             defaultActiveKey="profile"
             id="fill-tab"
-            className="mb-3 no-overflow-y"
+            className="mb-3"
             fill
             justify
         >
 
       <Tab eventKey="visaapp" title="VISA Application" >
-        <div className="py-4">
+        <div className="py-4 lil-grey-text">
                 <h4 className=""><span className="text-brand2">Our Visa Services</span></h4>
-                <p className="text-13"><span className="text-rgb-55-65-81">Exclusive Travels offers comprehensive visa application services to ensure a hassle-free travel experience. Our experienced team will guide you through the entire process, from documentation to submission.</span></p>
+                <p className="text-13"><span className="">Exclusive Travels offers comprehensive visa application services to ensure a hassle-free travel experience. Our experienced team will guide you through the entire process, from documentation to submission.</span></p>
                 
                 <div className="d-flex">
                     <p className="text-18"><span className="notice-rec rounded-3 lil-grey-text">Please note that visa approval is at the discretion of the respective embassy or consulate. We assist with the application process but cannot guarantee approval.</span></p>
@@ -87,7 +87,7 @@ function VisaApplication() {
             
 
             <div className="rectangle-52 custom-padding1">
-                <div className='px-4 custom-padding1'>
+                <div className='px-4 custom-padding1 lil-grey-text'>
                     <h4 className="text-brand2"><span className="text-rgb-15-52-96">Selected Visa:</span></h4>
                     <p className="text-54"><span className="text-rgb-55-65-81">For leisure travel, tourism, and visiting friends or family abroad.</span></p>
 
@@ -116,7 +116,7 @@ function VisaApplication() {
                     </button>
                 </div>
 
-                <div className='px-2'>
+                <div className='px-2 lil-grey-text'>
                     <h4 className="text-68"><span className="text-brand2">Frequently Asked Questions</span></h4>
                     <h5 className="text-69"><span className="text-brand2">How long does the visa application process take?</span></h5>
                     <p className="text-70"><span className="text-rgb-55-65-81">Processing times vary depending on the destination country and visa type. Generally, it takes between 5 to 20 working days, but may take longer in some cases.</span></p>
@@ -132,7 +132,7 @@ function VisaApplication() {
 
             <div className="bg-special text-center custom-padding1">
                 <h3 className="text-80"><span className="text-brand2">Need Assistance?</span></h3>
-                <p className="text-81"><span className="text-rgb-75-85-99">Our visa specialists are available to assist you with any questions regarding visa requirements, documentation, or application process.</span></p>
+                <p className="text-81"><span className="lil-grey-text">Our visa specialists are available to assist you with any questions regarding visa requirements, documentation, or application process.</span></p>
                 <button>
 
                 </button>
@@ -142,18 +142,24 @@ function VisaApplication() {
       </Tab>
       <Tab eventKey="appform" title="Application Form">
 
-        <div className='application-container custom-padding1'>  
+        <div className='application-container box-simple lil-grey-text'>  
             <div className="rectangle-66">
-                <h2 className="text-68"><span className="text-rgb-15-52-96">Application Form</span></h2>
+                <h2 className="text-68"><span className="text-brand2">Application Form</span></h2>
                 <p className="text-69"><span className="text-rgb-75-85-99">Please complete the form below and upload the required documents.</span></p>
             </div>
             
             <div className=''>
             <div className="rectangle-70">
-                <h4 className="text-71"><span className="text-rgb-15-52-96">Personal Information</span></h4>
+                <h4 className="text-71"><span className="text-brand2">Personal Information</span></h4>
+            </div>
+
+            <div className="row">
+                <div className="col">
+                    <div>
                 <p className="text-72"><span className="text-rgb-55-65-81">First Name *</span></p>
                 <input type="text" name="" id="" />
             </div>
+            
             
 
             <div className="rectangle-73">
@@ -172,9 +178,9 @@ function VisaApplication() {
                 <p className="text-78"><span className="text-rgb-55-65-81">Phone Number *</span></p>
                 <input type="text" name="" id="" />
             </div>
-            
-
-            <div className="rectangle-79">
+                </div>
+                <div className="col">
+                    <div className="rectangle-79">
                 <p className="text-80"><span className="text-rgb-55-65-81">Nationality *</span></p>
                 <input type="text" name="" id="" />
             </div>
@@ -185,15 +191,22 @@ function VisaApplication() {
                 <input type="text" name="" id="" />
             </div>
             
-           
+            <div>
                 <p className="text-84"><span className="text-rgb-55-65-81">Passport Expiry Date *</span></p>
                 <input type="date" name="" id="" />
             </div>
+                </div>
+            </div>
+  
+
+            </div>
         </div>
 
-        <div className="travel-info custom-padding1">
-                <div className="rectangle-86">
-                    <h4 className="text-87"><span className="text-rgb-15-52-96">Travel Information</span></h4>
+        <div className="travel-info box-simple lil-grey-text">
+
+        
+                <div className="">
+                    <h4 className="text-87"><span className="text-brand2">Travel Information</span></h4>
                     <p className="text-88"><span className="text-rgb-55-65-81">Destination Country *</span></p>
                     <select name="" id="">
                         <option value="">Paris</option>
@@ -223,35 +236,39 @@ function VisaApplication() {
                     
                 </div>
         </div>
-        <div className="doc-upload custom-padding1">             
-                <div className="rectangle-98">
-                    <h4 className="text-99"><span className="text-rgb-15-52-96">Document Upload</span></h4>
+        <div className="doc-upload box-simple">             
+                <div className="lil-grey-text">
+                    <h4 className="text-99"><span className="text-brand2">Document Upload</span></h4>
                     <p className="text-100"><span className="text-rgb-107-114-128">Please upload clear, high-resolution scans or photos of the required documents.</span></p>
 
                     <div className='d-flex justify-content-between'>
                         <p className="text-101"><span className="text-rgb-55-65-81">Passport Copy (Main Page) *</span></p>
-                        <p className="text-102"><span className="text-rgb-107-114-128">PDF or image file (max 5MB)</span></p>
+                        <input type="file" accept='pdf' id='passport' multiple/>
                     </div>
                     
                     
                     <div className='d-flex justify-content-between'>
-                        <p className="text-103"><span className="text-rgb-55-65-81">Passport-sized Photo *</span></p>
-                        <p className="text-104"><span className="text-rgb-107-114-128">JPEG or PNG (max 2MB)</span></p>
+                        <p className="text-103"><span className="text-rgb-55-65-81">Passport-sized Photo * (max 2MB)</span></p>
+                        <input type="file" accept='pdf' id='pass-photo' multiple/>
                     </div>
                     
                     
                     <div className='d-flex justify-content-between'>
-                        <p className="text-105"><span className="text-rgb-55-65-81">Flight Itinerary</span></p>
-                        <p className="text-106"><span className="text-rgb-107-114-128">PDF or image file (max 5MB)</span></p>
+                        <p className="text-105"><span className="text-rgb-55-65-81">Flight Itinerary (max 2MB)</span></p>
+                        <input type="file" accept='pdf' id='flight-det' multiple/>
                     </div>
                     
 
                     <div className='d-flex justify-content-between'>
-                        <p className="text-107"><span className="text-rgb-55-65-81">Accommodation Proof</span></p>
-                        <p className="text-108"><span className="text-rgb-107-114-128">PDF or image file (max 5MB)</span></p>
+                        <p className="text-107"><span className="text-rgb-55-65-81">Accommodation Proof (max 5MB)</span></p>
+                        <input type="file" accept='pdf' id='accomodation' multiple/>
                     </div>
+   
+                </div>    
+            </div>
 
-                    <div className="d-flex gap-2 align-items-center mt-4">
+            <div className='py-3'>
+                <div className="d-flex gap-2 align-items-center mt-4">
                         <input type="checkbox" id="affirm-info" name="affirm-info" value="yes" className='web-icon'></input>
                         <p className="text-110"><span className="text-rgb-75-85-99">I confirm that all information provided is accurate and complete. I understand that providing false information may result in the rejection of my visa application.</span></p>
                     </div>
@@ -264,9 +281,10 @@ function VisaApplication() {
                         <div>
                             <button className="btn-plain1"><span className="text-rgb-248-250-252">Submit Application</span></button>
                         </div>
-                     </div>   
-                </div>    
+                     </div>
+
             </div>
+            
       </Tab>
 
     </Tabs>

@@ -95,7 +95,7 @@ img {
 
 .box-simple {
   background: #f8f9fa;          /* light grey background */
-  border: 1px solid #ddd;       /* subtle border */
+  border: 1px solid lightgray;       /* subtle border */
   border-radius: 8px;           /* slightly curved corners */
   padding: 20px;                /* comfortable spacing */
   box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* gentle depth */
