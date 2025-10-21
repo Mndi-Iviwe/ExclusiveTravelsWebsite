@@ -27,7 +27,7 @@ export default function ContactUs() {
   <div style={{ maxWidth: "600px" }}>
     <h1 className="fw-bold mb-2 text-brand">Contact Us</h1>
     <p className="text-muted mb-4">
-      We'd love to hear from you! Fill in your details below and we’ll get back to you soon.
+      We'd love to hear from you! Fill in your details below and we'll get back to you soon.
       We work from Monday till Friday from 8:00 a.m. to 5:30 p.m.
     </p>
 
@@ -41,7 +41,7 @@ export default function ContactUs() {
           onChange={handleChange}
           required
           className="form-control form-control-lg rounded-3"
-          placeholder="Your name (or Organization)"
+          placeholder="your name (or Organization)"
         />
       </div>
 

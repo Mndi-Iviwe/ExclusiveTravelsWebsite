@@ -137,12 +137,26 @@ img {
   height:  auto;
 }
 
+.web-icon2{
+  width: 20px;
+  height:  auto;
+  padding-right: 5px;
+}
+
+.lil-grey-text{
+  color: #9CA3AF;
+}
 
 .notice-rec{
   font-size: 12px;
   background: lightcyan;
-  color: lightskyblue;
   padding: 5px;
+}
+
+
+.custom-sect{
+  padding: 0;
+  margin: 0;
 }
 
 /* Scroll Bar Styling*/

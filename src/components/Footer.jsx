@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom'
 
 export default function Footer() {
     return(
-        <footer className='bg-brand text-white py-4'>
-            <div className="container">
-                <div className="div row">
+        <footer className='bg-brand text-white py-3 custom-sect'>
+            <div className="container ">
+                <div className="row ">
                     <div className="col">
                         
                         <img src="images/rettina-2-170.png" className="rettina-2-170" alt="rettina-2" />
@@ -40,30 +40,39 @@ export default function Footer() {
                     </div>
                     <div className="col">
 
-                    
-                            <img src="images/vector-192.svg" className="vector-192" alt="vector" />
-                        
+                        <div className='d-flex'>
+                            <img src="images/vector-192.svg" className="web-icon2" alt="vector" />
                             <p className="text-194"><span className="text-rgb-209-213-219">123 Travel Street, Cape Town, South Africa</span></p>
+                        </div>
                         
                         
                         
-                        <img src="images/phone-icon.png" className="vector-196" alt="vector" />
-                        
-                        <p className="text-197"><span className="text-rgb-209-213-219">+27 12 345 6789</span></p>
-                        
+                        <div className='d-flex'>
+                            <img src="images/phone-icon.png" className="web-icon2" alt="vector" />
+                            <p className="text-197"><span className="text-rgb-209-213-219">+27 12 345 6789</span></p>
+                        </div>
 
-                        <img src="images/vector-199.svg" className="vector-199" alt="vector" />
-                        <img src="images/vector-200.svg" className="vector-200" alt="vector" />
-                        
-                        <p className="text-201"><span className="text-rgb-209-213-219">info@exclusivetravels.co.za</span></p>
-                        
-                        <p className="text-203"><span className="text-rgb-156-163-175">©</span></p>
-                        <p className="text-204"><span className="text-rgb-156-163-175">Privacy Policy</span></p>
-                        <p className="text-205"><span className="text-rgb-156-163-175">Terms of Service</span></p>
+                        <div className='d-flex'>
+                            <img src="images/vector-199.svg" className="web-icon2" alt="vector" />
+                            <p className="text-201"><span className="text-rgb-209-213-219">info@exclusivetravels.co.za</span></p>
+                        </div>
 
                     </div>
 
+                        
                 </div>
+
+                        <div className='d-flex justify-content-between lil-grey-text'>
+                            <div>
+                                <p className="text-203"><span className="text-rgb-156-163-175">©</span></p>
+                            </div>
+
+                            <div className='d-flex'>
+                                <p className="text-204"><span className="text-rgb-156-163-175">Privacy Policy</span></p>
+                                <p className="text-205"><span className="text-rgb-156-163-175">Terms of Service</span></p>
+                            </div>
+                        </div>
+
             </div>
 
 
