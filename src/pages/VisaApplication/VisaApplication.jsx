@@ -14,8 +14,7 @@ function VisaApplication() {
         </div>
 
         <Tabs
-            defaultActiveKey="profile"
-            id="fill-tab"
+            defaultActiveKey="visa-application-process"
             className="mb-3"
             fill
             justify

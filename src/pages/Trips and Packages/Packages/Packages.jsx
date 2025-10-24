@@ -1,3 +1,5 @@
+import { CustomLink } from "../../../components/Header";
+
 
 function Packages(){
     return(
@@ -81,7 +83,15 @@ function Packages(){
                         <p className="text-32"><span className="text-rgb-15-52-96">R</span></p>
                         <p className="text-33"><span className="text-rgb-107-114-128">per person</span></p>
                         <div className="rectangle-34">
-                            <p className="text-35"><span className="text-rgb-15-52-96">View Details</span></p>
+
+                       <div>
+                            <button className="btn-plain2">
+                                    <CustomLink className="btn-plain1" to ='/Destination'>
+                                        <p className="text-35"><span className="no-decor">View Details</span></p>
+                                    </CustomLink>
+                            </button> 
+                       </div>
+                            
                         </div>
 
                     </div>

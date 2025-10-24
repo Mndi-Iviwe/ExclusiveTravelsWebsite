@@ -82,6 +82,15 @@ img {
   font-weight: bold;
 }
 
+.bg-container3 {
+  background-image: url('/images/resort-view.svg');
+  background-size: cover;
+  background-position: cover;
+  height: 90vh;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .custom-card {
   width: 510px;
   height: auto;
@@ -121,6 +130,12 @@ img {
   transition: all 0.2s ease;
 }
 
+.no-decor{
+  text-decoration: none;
+  list-style: none;
+  color: none;
+}
+
 
 .btn-plain1:hover {
   background: lightgray;
@@ -151,6 +166,10 @@ img {
   font-size: 12px;
   background: lightcyan;
   padding: 5px;
+}
+
+.max-grav{
+  margin-bottom: 0;
 }
 
 

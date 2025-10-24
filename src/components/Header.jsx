@@ -14,7 +14,7 @@ export default function Header() {
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className="ps-5 me-auto">
             <CustomLink to='/Home'>Home</CustomLink>
-            <CustomLink to='/Packages'>Destinations</CustomLink>
+            <CustomLink to='/Packages'>Packages</CustomLink>
             <CustomLink to='/VisaApplication'>Visa Applications</CustomLink>
             <CustomLink to='/About'>About Us</CustomLink>
             <CustomLink to='/ContactUs'>Contact Us</CustomLink>
@@ -42,7 +42,7 @@ export default function Header() {
 
 
 //linking function - uses window  data to refernece to different links/pages
-function CustomLink({to, children, ...props}) {
+export function CustomLink({to, children, ...props}) {
 
     const resolvedPath = useResolvedPath(to)
     const isActive = useMatch({path:resolvedPath.pathname, end: true})

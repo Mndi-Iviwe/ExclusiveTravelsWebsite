@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import About from './pages/AboutUs/About'
 import Login from './pages/Auth/Login/Login'
 import Register from './pages/Auth/Register/Register'
+import Destination from './pages/Trips and Packages/Destination/Destination'
 import { Route, Routes } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -31,7 +32,8 @@ function App() {
               <Route path = "/ContactUs" element = {<Contact/>} />
               <Route path = "/VisaApplication" element = {<Visa/>} />
               <Route path = "/Login" element = {<Login/>} />
-              <Route path = "/Register" element = {<Register/>} />         
+              <Route path = "/Register" element = {<Register/>} />
+              <Route path = "/Destination" element = {<Destination/>} />           
           </Routes>
         </div>
 

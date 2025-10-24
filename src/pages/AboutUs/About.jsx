@@ -1,5 +1,6 @@
 import Nav from 'react-bootstrap/Nav';
 import {Link} from 'react-router-dom'
+import { CustomLink } from '../../components/Header';
 
 function AboutUs() {
 
@@ -79,17 +80,43 @@ function AboutUs() {
                 <p className="fs-5 squeeze-text py-4"><span className="text-rgb-55-65-81">Let us help you plan your next adventure with our expert travel management services.</span></p>
             
             
-                <Nav className='gap-2 justify-content-center py-3'>
-                    <Nav.Link href="/Packages" className="btn btn-primary btn-lg px-3 rounded-3 fw-bold text-black"
+                {/*<Nav className='gap-2 justify-content-center py-3'>
+                    <Nav.Link to="/Packages" className="btn btn-primary btn-lg px-3 rounded-3 fw-bold text-black"
                     style={{ backgroundColor: "#ffff", border: "2px solid #0F3460"}}
                     >
                     Explore Our Packages
                     </Nav.Link>
-                    <Nav.Link eventKey={2} href="/ContactUs" className="btn btn-primary btn-lg px-3 rounded-3 fw-semibold text-white"
+                    <Nav.Link eventKey={2} to="/ContactUs" className="btn btn-primary btn-lg px-3 rounded-3 fw-semibold text-white"
                     style={{ backgroundColor: "#0F3460" }}>
                     Get in Touch
                     </Nav.Link>
-                </Nav>
+                </Nav>*/}
+
+                <div className="d-flex gap-3 justify-content-center py-3">
+                    <div>
+                        <button className="btn-plain2">
+                        <CustomLink to=''>
+                        
+                            Explore Our Packages
+                        
+                        </CustomLink>
+                    </button>
+                    </div>
+                    <div>
+                        <button className="btn-plain1">
+                            <CustomLink to=''>
+                            
+                                Get in touch
+                            
+                            </CustomLink>
+                        </button>
+                    </div>
+
+                    
+
+                    
+
+                </div>
             </div>
 
             </div>
