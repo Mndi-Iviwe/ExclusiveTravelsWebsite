@@ -5,7 +5,7 @@ function Destination(){
 
     return(
         <>
-            <section className="banner-info bg-container3 max-grav p-3">
+            <section className="banner-info bg-container3 p-3">
                 <h2 className='max-grav'><span>(REGION) Luxury Getaway</span></h2>
             </section>
 
